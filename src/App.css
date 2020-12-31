@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Input-Container {
+  margin: 0;
+  padding: 40px 30px;
+  background-color: #8f8f8f;
+  color: white;
+  width: auto;
+  height: auto;
+}
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  width: "60px";
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.add-element {
+  display: block;
+  text-align: center;
+}
+
+#myInput {
+  width: 60%;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  color: grey;
+  padding-left: 10px;
+  padding: 8px 0 8px 10px;
+  transition: 0.4s ease-out;
+}
+
+#myInput:focus {
+  outline: 0;
+  box-shadow: 0px 0px 8px 3px rgb(230, 0, 0);
+}
+
+::placeholder {
+  color: #000000;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+.add-Btn {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: #00a759;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+  margin-left: 20px;
+}
+
+.add-Btn:hover {
+  outline: transparent;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #7c7c7c;
+  font-size: 35px;
+  font-weight: light;
+  padding: 50px 0;
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+  color: #7c7c7c;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0px;
+  width: 93%;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.Modal-Btn {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.Modal-Btn:focus {
+  outline: transparent;
+}
+
+#ModalInput {
+  padding: 10px 15px;
+  background-color: white;
+  border: 0.5px solid #cccbcb;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#ModalInput:focus {
+  outline: transparent;
+}
+
+#myUl {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  padding: 0;
+}
+.todo-li {
+  justify-content: space-between;
+}
+.complete-btn {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: #df0909;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+}
+.complete-btn:focus {
+  outline: 0;
+}
+.delete-btn {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+}
+.delete-btn:focus {
+  outline: 0;
+}
+.btn {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+}
+.btn-delete {
+  padding: 10px 25px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  background-color: #ca0303;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: auto;
+}
+.btn:focus {
+  outline: 0;
+}
+.check {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
